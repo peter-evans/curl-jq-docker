@@ -2,7 +2,7 @@
 [![](https://images.microbadger.com/badges/image/peterevans/curl-jq.svg)](https://microbadger.com/images/peterevans/curl-jq)
 [![CircleCI](https://circleci.com/gh/peter-evans/curl-jq-docker/tree/master.svg?style=svg)](https://circleci.com/gh/peter-evans/curl-jq-docker/tree/master)
 
-An alpine Docker image with curl and jq
+An alpine based Docker image with curl and jq
 
 # Supported tags and respective `Dockerfile` links
 
