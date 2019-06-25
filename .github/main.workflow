@@ -10,6 +10,6 @@ action "Filter master branch" {
 
 action "Update Docker Hub Repository Description" {
   needs = ["Filter master branch"]
-  uses = "peter-evans/dockerhub-description@master"
+  uses = "peter-evans/dockerhub-description@v1.0.0"
   secrets = ["DOCKERHUB_USERNAME", "DOCKERHUB_PASSWORD", "DOCKERHUB_REPOSITORY"]
 }
