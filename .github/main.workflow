@@ -1,6 +1,6 @@
-workflow "Publish repository description" {
+workflow "Update Docker Hub Description" {
+  resolves = ["Docker Hub Description"]
   on = "push"
-  resolves = ["Update Docker Hub Repository Description"]
 }
 
 action "Filter master branch" {
@@ -8,7 +8,7 @@ action "Filter master branch" {
   args = "branch master"
 }
 
-action "Update Docker Hub Repository Description" {
+action "Docker Hub Description" {
   needs = ["Filter master branch"]
   uses = "peter-evans/dockerhub-description@v1.0.0"
   secrets = ["DOCKERHUB_USERNAME", "DOCKERHUB_PASSWORD", "DOCKERHUB_REPOSITORY"]
