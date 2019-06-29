@@ -6,7 +6,7 @@ An alpine based Docker image with curl and jq
 
 # Supported tags and respective `Dockerfile` links
 
-- [`1.0.0`, `1.0`, `latest`  (*1.0/Dockerfile*)](https://github.com/peter-evans/curl-jq-docker/tree/master)
+- [`1.0.1`, `1.0`, `latest`  (*1.0/Dockerfile*)](https://github.com/peter-evans/curl-jq-docker/tree/master)
 
 ## License
 
