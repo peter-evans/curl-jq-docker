@@ -11,4 +11,4 @@ LABEL \
 
 RUN apk --no-cache add curl jq
 
-COPY LICENSE README.md
+COPY LICENSE README.md /
