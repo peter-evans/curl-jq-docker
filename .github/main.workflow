@@ -10,6 +10,6 @@ action "Filter master branch" {
 
 action "Docker Hub Description" {
   needs = ["Filter master branch"]
-  uses = "peter-evans/dockerhub-description@v1.0.0"
+  uses = "peter-evans/dockerhub-description@v1.0.1"
   secrets = ["DOCKERHUB_USERNAME", "DOCKERHUB_PASSWORD", "DOCKERHUB_REPOSITORY"]
 }
